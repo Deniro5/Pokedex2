@@ -1,0 +1,160 @@
+#displayContainer {
+  max-width: 1300px;
+  margin: auto;
+  color: white;
+  overflow: hidden;
+  text-align: left;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+#displayInfoContainer,
+#displayImgContainer {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#displayImgContainer {
+  text-align: center;
+  img {
+    width: 70%;
+    min-width: 300px;
+
+    border-radius: 3px;
+    padding: 15px;
+  }
+}
+
+#displayInfoContainer {
+}
+
+#typeContainer {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+#pokeType {
+  display: inline-block;
+  background: yellow;
+  margin: 10px;
+  width: 60px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.statContainer {
+  width: 330px;
+  text-align: left;
+  p {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+.statBar {
+  height: 20px;
+  border-radius: 5px;
+  margin: auto;
+  line-height: 20px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#statName {
+  width: 60px;
+  text-align: right;
+}
+
+.subTitle {
+  font-size: 18px;
+  text-align: left;
+  margin: 10px;
+  margin-top: 0px;
+  text-decoration: underline;
+}
+
+#abilityContainer,
+#entriesContainer {
+  width: 45%;
+  margin: 50px 20px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+#abilityName {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+#abilityBody,
+#entryBody {
+  font-size: 13px;
+  line-height: 25px;
+  margin-left: 10px;
+}
+
+#miscContainer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#miscBody {
+  margin: 30px 10px;
+  font-size: 12px;
+}
+
+#miscBody b {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1050px) {
+  #displayContainer {
+  }
+  #abilityContainer,
+  #entriesContainer {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 875px) {
+  #displayImgContainer,
+  #displayInfoContainer {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+  #displayInfoContainer {
+    text-align: center;
+  }
+  .statContainer {
+    width: 330px;
+    display: block;
+    margin: auto;
+    p {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .subTitle {
+      text-align: center;
+    }
+    #statName {
+      margin-left: 50px;
+    }
+  }
+}
