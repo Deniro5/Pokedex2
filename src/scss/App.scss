@@ -2,7 +2,9 @@
 @import "./components/menuitem.scss";
 @import "./components/display.scss";
 
+html {
+  background-image: url("./background.png");
+}
 .App {
   text-align: center;
-  background: rgb(24, 24, 24);
 }
