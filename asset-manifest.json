@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5fcbbcb.chunk.css",
-    "main.js": "/static/js/main.d3ef6724.chunk.js",
-    "main.js.map": "/static/js/main.d3ef6724.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6a2302b0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6a2302b0.js.map",
-    "static/js/2.77d832ee.chunk.js": "/static/js/2.77d832ee.chunk.js",
-    "static/js/2.77d832ee.chunk.js.map": "/static/js/2.77d832ee.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.666a4bb5f275bc626fca941c7af7da59.js": "/precache-manifest.666a4bb5f275bc626fca941c7af7da59.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c5fcbbcb.chunk.css.map": "/static/css/main.c5fcbbcb.chunk.css.map",
-    "static/js/2.77d832ee.chunk.js.LICENSE.txt": "/static/js/2.77d832ee.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/static/media/background.d0a375bc.png"
+    "main.css": "//deniro5.github.io/Pokedex2/static/css/main.76acea23.chunk.css",
+    "main.js": "//deniro5.github.io/Pokedex2/static/js/main.0dad96b4.chunk.js",
+    "main.js.map": "//deniro5.github.io/Pokedex2/static/js/main.0dad96b4.chunk.js.map",
+    "runtime-main.js": "//deniro5.github.io/Pokedex2/static/js/runtime-main.c2d5fc34.js",
+    "runtime-main.js.map": "//deniro5.github.io/Pokedex2/static/js/runtime-main.c2d5fc34.js.map",
+    "static/js/2.77d832ee.chunk.js": "//deniro5.github.io/Pokedex2/static/js/2.77d832ee.chunk.js",
+    "static/js/2.77d832ee.chunk.js.map": "//deniro5.github.io/Pokedex2/static/js/2.77d832ee.chunk.js.map",
+    "index.html": "//deniro5.github.io/Pokedex2/index.html",
+    "precache-manifest.9da2320890dc3aa538d437525ba08390.js": "//deniro5.github.io/Pokedex2/precache-manifest.9da2320890dc3aa538d437525ba08390.js",
+    "service-worker.js": "//deniro5.github.io/Pokedex2/service-worker.js",
+    "static/css/main.76acea23.chunk.css.map": "//deniro5.github.io/Pokedex2/static/css/main.76acea23.chunk.css.map",
+    "static/js/2.77d832ee.chunk.js.LICENSE.txt": "//deniro5.github.io/Pokedex2/static/js/2.77d832ee.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "//deniro5.github.io/Pokedex2/static/media/background.d0a375bc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a2302b0.js",
+    "static/js/runtime-main.c2d5fc34.js",
     "static/js/2.77d832ee.chunk.js",
-    "static/css/main.c5fcbbcb.chunk.css",
-    "static/js/main.d3ef6724.chunk.js"
+    "static/css/main.76acea23.chunk.css",
+    "static/js/main.0dad96b4.chunk.js"
   ]
 }
