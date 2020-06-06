@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e78b0b3f57fa8d2844a5cb27c344f9d",
+    "revision": "d25025e398bab4cb8fcf2e25298e9c58",
     "url": "//deniro5.github.io/Pokedex2/index.html"
   },
   {
-    "revision": "396e84ff424b355f2be0",
-    "url": "//deniro5.github.io/Pokedex2/static/css/main.76acea23.chunk.css"
+    "revision": "8c2201bdc58761365e78",
+    "url": "//deniro5.github.io/Pokedex2/static/css/main.4b9a9da7.chunk.css"
   },
   {
     "revision": "1e9b3c64f9df2c07d6df",
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//deniro5.github.io/Pokedex2/static/js/2.77d832ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "396e84ff424b355f2be0",
-    "url": "//deniro5.github.io/Pokedex2/static/js/main.0dad96b4.chunk.js"
+    "revision": "8c2201bdc58761365e78",
+    "url": "//deniro5.github.io/Pokedex2/static/js/main.a03b473f.chunk.js"
   },
   {
     "revision": "e0f7a8698792db3fd188",
     "url": "//deniro5.github.io/Pokedex2/static/js/runtime-main.c2d5fc34.js"
   },
   {
-    "revision": "d0a375bc6cebd701c69abfbd29327500",
-    "url": "//deniro5.github.io/Pokedex2/static/media/background.d0a375bc.png"
+    "revision": "2879ea48049f5aaf9f87f7f28f7c2ccc",
+    "url": "//deniro5.github.io/Pokedex2/static/media/background.2879ea48.jpg"
   }
 ]);
