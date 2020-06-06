@@ -13,14 +13,24 @@ const Types: React.FC<IAbilitiesProps> = (props) => {
     fetch(ability[0])
       .then((res) => res.json())
       .then((result) => {
-        setAbility1([capitalize(result.name), result.effect_entries[0].effect]);
+        setAbility1([
+          capitalize(result.name),
+          result.effect_entries[0].language.name === "en"
+            ? result.effect_entries[0].effect
+            : result.effect_entries[1].effect,
+        ]);
       });
     if (ability.length > 1) {
       //There is only one ability in some cases
       fetch(ability[1])
         .then((res) => res.json())
         .then((result) => {
-          setAbility2([capitalize(result.name), result.effect_entries[0].effect]);
+          setAbility2([
+            capitalize(result.name),
+            result.effect_entries[0].language.name === "en"
+              ? result.effect_entries[0].effect
+              : result.effect_entries[1].effect,
+          ]);
         });
     } else {
       setAbility2([]);
