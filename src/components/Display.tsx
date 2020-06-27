@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Fragment } from "react";
 import Stats from "./Stats";
 import Types from "./Types";
 import Abilities from "./Abilities";
@@ -20,6 +20,7 @@ const Display: React.FC<IDisplayProps> = (props) => {
   const [abilities, setAbilities] = useState([]);
   const [stats, setStats] = useState([]);
   const [types, setTypes] = useState([]);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}/`) //need this call for the entry
@@ -49,15 +50,22 @@ const Display: React.FC<IDisplayProps> = (props) => {
             capitalize(type.type.name)
           )
         );
+        setIsLoaded(true);
       });
+  }, [id, name]);
+
+  useEffect(() => {
+    //setloading to false when we change pokemon and set to true after fetch
+    setIsLoaded(false);
   }, [id, name]);
 
   const capitalize = (text: string) => {
     return text[0].toUpperCase() + text.substring(1);
   };
 
-  return (
-    <div id='displayContainer'>
+  let display = isLoaded ? (
+    <Fragment>
+      {" "}
       <h2 className='title'> {`#${number} - ${name}`} </h2>
       <div id='displayImgContainer'>
         <img
@@ -68,12 +76,12 @@ const Display: React.FC<IDisplayProps> = (props) => {
       <div id='displayInfoContainer'>
         <Types types={types} />
         <Stats
-          hp={stats[5]}
-          attack={stats[4]}
-          defense={stats[3]}
-          spatk={stats[2]}
-          spdef={stats[1]}
-          speed={stats[0]}
+          hp={stats[0]}
+          attack={stats[1]}
+          defense={stats[2]}
+          spatk={stats[3]}
+          spdef={stats[4]}
+          speed={stats[5]}
         />
       </div>
       {
@@ -82,8 +90,14 @@ const Display: React.FC<IDisplayProps> = (props) => {
           <Entries entry={entry} height={height} weight={weight} exp={exp} />
         </div>
       }
-    </div>
+    </Fragment>
+  ) : (
+    <Fragment>
+      <img alt='loading' id='loadingIcon' src='/img/loading.gif' />
+    </Fragment>
   );
+
+  return <div id='displayContainer'>{display}</div>;
 };
 
 export default Display;
