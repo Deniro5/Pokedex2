@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "//deniro5.github.io/Pokedex2/static/css/main.aa9f39d7.chunk.css",
-    "main.js": "//deniro5.github.io/Pokedex2/static/js/main.fcbcaa84.chunk.js",
-    "main.js.map": "//deniro5.github.io/Pokedex2/static/js/main.fcbcaa84.chunk.js.map",
+    "main.js": "//deniro5.github.io/Pokedex2/static/js/main.4625c851.chunk.js",
+    "main.js.map": "//deniro5.github.io/Pokedex2/static/js/main.4625c851.chunk.js.map",
     "runtime-main.js": "//deniro5.github.io/Pokedex2/static/js/runtime-main.c2d5fc34.js",
     "runtime-main.js.map": "//deniro5.github.io/Pokedex2/static/js/runtime-main.c2d5fc34.js.map",
     "static/js/2.77d832ee.chunk.js": "//deniro5.github.io/Pokedex2/static/js/2.77d832ee.chunk.js",
     "static/js/2.77d832ee.chunk.js.map": "//deniro5.github.io/Pokedex2/static/js/2.77d832ee.chunk.js.map",
     "index.html": "//deniro5.github.io/Pokedex2/index.html",
-    "precache-manifest.3dfe15afd53ee942be1f4675fe9dc36b.js": "//deniro5.github.io/Pokedex2/precache-manifest.3dfe15afd53ee942be1f4675fe9dc36b.js",
+    "precache-manifest.12d8140d9b60f723c8c4a66741e5552e.js": "//deniro5.github.io/Pokedex2/precache-manifest.12d8140d9b60f723c8c4a66741e5552e.js",
     "service-worker.js": "//deniro5.github.io/Pokedex2/service-worker.js",
     "static/css/main.aa9f39d7.chunk.css.map": "//deniro5.github.io/Pokedex2/static/css/main.aa9f39d7.chunk.css.map",
     "static/js/2.77d832ee.chunk.js.LICENSE.txt": "//deniro5.github.io/Pokedex2/static/js/2.77d832ee.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.c2d5fc34.js",
     "static/js/2.77d832ee.chunk.js",
     "static/css/main.aa9f39d7.chunk.css",
-    "static/js/main.fcbcaa84.chunk.js"
+    "static/js/main.4625c851.chunk.js"
   ]
 }

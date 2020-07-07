@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d85741381d80ac308b7d589ef958d1d0",
+    "revision": "e18b8ede9a7281609736510ea182aa7c",
     "url": "//deniro5.github.io/Pokedex2/index.html"
   },
   {
-    "revision": "aa3b8cc86477993c73e0",
+    "revision": "42941b9c84af565f1ec0",
     "url": "//deniro5.github.io/Pokedex2/static/css/main.aa9f39d7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//deniro5.github.io/Pokedex2/static/js/2.77d832ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa3b8cc86477993c73e0",
-    "url": "//deniro5.github.io/Pokedex2/static/js/main.fcbcaa84.chunk.js"
+    "revision": "42941b9c84af565f1ec0",
+    "url": "//deniro5.github.io/Pokedex2/static/js/main.4625c851.chunk.js"
   },
   {
     "revision": "e0f7a8698792db3fd188",
