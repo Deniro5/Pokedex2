@@ -93,7 +93,7 @@ const Display: React.FC<IDisplayProps> = (props) => {
     </Fragment>
   ) : (
     <Fragment>
-      <img alt='loading' id='loadingIcon' src='/img/loading.gif' />
+      <img alt='loading' id='loadingIcon' src='img/loading.gif' />
     </Fragment>
   );
 
